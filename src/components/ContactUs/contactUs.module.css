@@ -44,7 +44,7 @@
 }
 
 .contact input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #0e0e0e;
   border: none;
   color: #fff;
   font-size: 1rem;
@@ -53,5 +53,5 @@
 }
 
 .contact input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #a50b25;
 }
