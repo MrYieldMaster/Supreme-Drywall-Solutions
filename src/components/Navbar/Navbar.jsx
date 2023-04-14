@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link to="/about" className={styles.navbarLink}>About</Link>
         </li>
         <li className={styles.navbarItem}>
-          <a href="#gallery" className={styles.navbarLink}>Gallery</a>
+        <Link to="/merch" className={styles.navbarLink}>Merch</Link>
         </li>
         <li className={styles.navbarItem}>
           <a href="#contactus" className={styles.navbarLink}>Contact Us</a>
