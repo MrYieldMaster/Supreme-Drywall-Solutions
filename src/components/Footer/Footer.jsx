@@ -11,7 +11,7 @@ const Footer = () => {
         <p>Sign up for our newsletter to receive updates on our services and promotions.</p>
         <button className={styles.button}>Discounts</button>
         <p>
-          Supreme Drywall Solutions, Inc. <br />
+          Supreme Drywall Solutions,  <br />
           1234 Main St, Suite 100 <br />
           Bay Area, CA 95370 ext
           <i className="fa fa-map-marker" aria-hidden="true"></i>
