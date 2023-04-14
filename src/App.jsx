@@ -9,6 +9,7 @@ import Slideshow from './components/Slideshow/Slideshow';
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
 import MerchPage from './components/Merch/MerchPage';
+import ContactUsPage from './components/ContactUs/ContactUsPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             } />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/Merch" element={<MerchPage />} />
+            <Route path="/contactus" element={<ContactUsPage />} />
           </Routes>
           <Footer />
         </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link to="/merch" className={styles.navbarLink}>Merch</Link>
         </li>
         <li className={styles.navbarItem}>
-          <a href="#contactus" className={styles.navbarLink}>Contact Us</a>
+          <a href="/contactus" className={styles.navbarLink}>Contact Us</a>
         </li>
       </ul>
     </nav>
