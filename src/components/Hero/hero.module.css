@@ -1,0 +1,75 @@
+.hero {
+  background-image: url(../../assets/images/Image17.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  image-rendering: optimizeQuality;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 2rem;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  image-rendering: optimizeQuality;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ctaButton {
+  padding: 12px 24px;
+  border: none;
+  background-color: #e31837;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  
+}
+
+.ctaButton:hover {
+  background-color: #fff;
+  color: #e31837;
+  cursor: pointer;
+}
+
+.ctaButton:active {
+  background-color: #e31837;
+  color: #fff;
+}
+
+.ctaButton:focus {
+  outline: none;
+}
+
